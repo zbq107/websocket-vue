@@ -59,7 +59,7 @@ import qs from 'qs';
           //初始化websocket
           initWebSocket(){
               //后台的地址
-            const path = "ws://localhost:8081/webSocket/websocket"
+            const path = "ws://localhost:8087/webSocket/websocket"
               this.websocket = new WebSocket(path)
               this.websocket.onopen = this.websocketOnOpen
               this.websocket.onmessage = this.websocketOnMessage

@@ -11,7 +11,7 @@ module.exports = {
     assetsPublicPath: '/',
     proxyTable: {
       '/api': {
-        target: 'http://localhost:8081/webSocket', // 代理服务器路径
+        target: 'http://localhost:8087/webSocket', // 代理服务器路径
         pathRewrite: {'^/api' : ''},
         changeOrigin: true
       }
